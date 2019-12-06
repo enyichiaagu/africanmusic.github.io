@@ -1,0 +1,62 @@
+.back {
+	margin-top: 100px;
+  }
+
+.links {
+	margin: 20px;
+}
+
+.fb:hover {
+	border-bottom: 5px solid blue;
+}
+
+.githb:hover {
+	border-bottom: 5px solid black;
+}
+
+.mail:hover {
+	border-bottom: 5px solid red;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+@media screen and (max-width: 450px) {
+body {
+	text-align: center;
+	margin-top: 160px;
+}
+
+p.back {
+	text-align: left;
+	margin-top: 100px;
+  }  
+}
+
+.back:hover {
+	text-decoration: underline;
+}
+
+body {
+	text-align: center;
+	margin-top: 100px;
+}
+
+  .dot {
+	display: inline-block;
+	border-radius: 30%;
+	padding: 7px;
+}
+
+.d-one {
+	background-color: black;
+}
+
+.d-two {
+	background-color: yellow;
+}
+
+.d-three {
+	background-color: blue;
+}

@@ -1,0 +1,91 @@
+body {
+	text-align: center;
+	font-family: impact, fantasy;
+	background-image: url(images/realcover.png);
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center;
+}
+
+h1 {
+	margin-top: 75px;
+	margin-bottom: 200px;
+}
+
+a {
+	font-size: 1.2em;
+	padding-left: 60px;
+	padding-right: 60px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border: 2px solid #782167;
+	border-radius: 10px;
+	color: green;
+  }
+
+a:hover {
+  	background-color: #782167;
+  	text-decoration: none;
+  	color: white;
+  	transition: all 0.5s;
+  }
+
+h1 {
+	word-spacing: 10px;
+	line-height: 60px;
+	color: #550044;
+}
+
+a {
+	text-transform: uppercase;
+	letter-spacing: 1px;
+ }
+
+
+@media screen and (max-width: 750px) 
+ {
+body {
+	text-align: center;
+	font-family: impact, fantasy;
+	background-image: url(images/realcover.png);
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center;
+}
+
+h1 {
+	margin-top: 75px;
+	margin-bottom: 200px;
+}
+
+
+a {
+	font-size: 1.2em;
+	padding-left: 60px;
+	padding-right: 60px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border: 2px solid #782167;
+	border-radius: 10px;
+	color: green;
+  }
+
+  a:hover {
+  	background-color: #782167;
+  	text-decoration: none;
+  	color: white;
+  	transition: all 0.5s;
+  }
+
+h1 {
+	word-spacing: 10px;
+	line-height: 60px;
+	color: #550044;
+}
+
+a {
+	text-transform: uppercase;
+	letter-spacing: 1px;
+ }
+
+}

@@ -1,0 +1,108 @@
+h2, h3 {
+		text-align: center;
+		font-family: impact, fantasy;
+	    font-size: 18pt;
+	    margin-top: 5px;
+	}
+
+body {
+    margin: 0 auto;
+    max-width: 550px;
+	}
+
+h2 {
+		background-color: #782167;
+		color: white;
+	}
+
+h3 {
+		font-size: 155%;
+	}
+
+.one {
+		background-color: pink;
+	}
+
+.container {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+
+img {
+		width: 200px;
+		margin: 5px;
+		text-align: center;
+	}
+
+@media screen and (max-width: 450px) {
+	body {
+    margin: 0 auto;
+    max-width: 500px;
+	}
+
+	img {
+		width: 170px;
+		margin: 5px;
+		text-align: center;
+	}
+
+	h3 {
+		text-align: center;
+		font-family: impact, fantasy;
+	    font-size: 13pt;
+	    margin-top: 5px;
+	    margin-bottom: 3px;
+	}
+
+	.one {
+		background-color: pink;
+	}
+
+	.container {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+
+	hr {
+		margin: 2px;
+	}
+}
+
+
+body {
+	font-size: 70%;
+}
+
+footer {
+	text-align: center;
+}
+
+.dot {
+	display: inline-block;
+	border-radius: 30%;
+	padding: 5px;
+}
+
+.dot:hover {
+	text-decoration: none;
+}
+
+.d-one {
+	background-color: black;
+}
+
+.d-two {
+	background-color: yellow;
+}
+
+.d-three {
+	background-color: blue;
+}
+
+
+.d-one, .d-two, .d-three {
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
