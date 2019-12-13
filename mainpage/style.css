@@ -19,21 +19,34 @@ h3 {
 		font-size: 155%;
 	}
 
+p {
+	margin: 0px;
+}
+
 .one {
 		background-color: pink;
 	}
 
 .container {
+		display: -webkit-flex;
 		display: flex;
 		flex-wrap: wrap;
 		justify-content: center;
-	}
+		}
 
-img {
-		width: 200px;
+img { 	width: 220px;
 		margin: 5px;
 		text-align: center;
 	}
+
+body {
+	font-size: 70%;
+}
+
+figcaption {
+	max-width: 205px;
+	text-align: center;
+}
 
 @media screen and (max-width: 450px) {
 	body {
@@ -42,15 +55,19 @@ img {
 	}
 
 	img {
-		width: 170px;
+		width: 95%;
 		margin: 5px;
-		text-align: center;
+
+	}
+
+	h2 {
+		padding: 11px;
 	}
 
 	h3 {
 		text-align: center;
 		font-family: impact, fantasy;
-	    font-size: 13pt;
+	    font-size: 14pt;
 	    margin-top: 5px;
 	    margin-bottom: 3px;
 	}
@@ -59,20 +76,34 @@ img {
 		background-color: pink;
 	}
 
-	.container {
-		display: flex;
-		flex-wrap: wrap;
-		justify-content: center;
-	}
-
 	hr {
 		margin: 2px;
 	}
-}
 
+	.container {
+		display: -webkit-flex;
+		display: flex;
+		-webkit-flex-direction: column;
+		flex-direction: column;
+		-webkit-justify-content: center;
+		justify-content: center;
+		-webkit-align-items: center;
+		align-items: center;
+  }
 
-body {
-	font-size: 70%;
+  figcaption {
+  	max-width: 400px;
+  	text-align: center;
+  }
+
+  body {
+  	font-size: medium;
+  }
+
+  figure {
+  	text-align: center;
+  	justify-content: center;
+  }
 }
 
 footer {
@@ -82,10 +113,10 @@ footer {
 .dot {
 	display: inline-block;
 	border-radius: 30%;
-	padding: 5px;
+	padding: 7px;
 }
 
-.dot:hover {
+footer . a:hover {
 	text-decoration: none;
 }
 
@@ -105,4 +136,20 @@ footer {
 .d-one, .d-two, .d-three {
   animation-duration: 2s;
   animation-iteration-count: infinite;
+}
+
+@media screen and (max-width: 450px) {
+	.dot {
+	display: inline-block;
+	border-radius: 30%;
+	padding: 10px;
+	}
+
+	img {
+		max-width: 400px;
+	}
+}
+
+a:hover {
+	text-decoration: none;
 }
