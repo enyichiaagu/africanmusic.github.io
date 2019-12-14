@@ -46,7 +46,7 @@ body {
   .dot {
 	display: inline-block;
 	border-radius: 30%;
-	padding: 7px;
+	padding: 10px;
 }
 
 .d-one {
