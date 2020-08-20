@@ -1,1 +1,1 @@
-# We love African music
+# We love African music 🎵
